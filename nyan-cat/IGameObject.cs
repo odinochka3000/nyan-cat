@@ -8,5 +8,6 @@ namespace nyan_cat
 {
     public interface IGameObject
     {
+        hello;
     }
 }
