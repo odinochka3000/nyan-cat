@@ -16,7 +16,8 @@ namespace nyan_cat
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MyForm(new Game()));
+            var game = new Game();
+            Application.Run(new MyForm(game);                       
         }
     }
 }
